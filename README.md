@@ -2,7 +2,7 @@
 Converts 123D design CAD files into Fusion 360 CAD files
 
 ___
-🚧**NOTE:** this repository is still a work in progress, it has not been deployed to pypi yet. In order to use please execute the converter script directly.
+🚧**NOTE:** this repository is still a work in progress, it has not been deployed to PyPi yet. In order to use it, please execute the converter script directly.
 ```
 python converter.py [path/to/*.123dx]
 ```
