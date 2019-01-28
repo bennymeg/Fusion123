@@ -1,12 +1,14 @@
 # 123-Fusion
 Converts 123D design CAD files into Fusion 360 CAD files
 
-___
+<!-- ___
 🚧**NOTE:** this repository is still a work in progress, it has not been deployed to PyPi yet. In order to use it, please execute the converter script directly.
 ```
 python converter.py [path/to/*.123dx]
 ```
-___
+
+* _if no file path is provided, the script will use the current script directory_
+___ -->
 
 ## Getting Started
 
@@ -19,14 +21,17 @@ You will need to install python 3 in order to use this software
 ### Installing
 
 ```
-pip install 123fusion
+pip install fusion123
 ```
+NOTE: the PyPi module name is _different_ then the repository name
 
 ### Running
 
 ```
-123fusion [path/to/*.123dx]
+python fusion123 [path/to/*.123dx]
 ```
+
+<!-- * _file path is mandatory_ -->
 
 <!-- 
 Explain how to run the automated tests for this system
@@ -63,7 +68,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Benny Megidish**
+**Benny Megidish**
 
 _See also the list of [contributors](https://github.com/bennymeg/123-Fusion/contributors) who participated in this project._
 
