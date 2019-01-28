@@ -17,7 +17,7 @@ def extract3d(zipFileDir, destDirectory, outputFileName):
         extract3dRecursively(zipFile.namelist(), zipFile, destDirectory, outputFileName)
 
 
-def extract3dRecursively(fileList, baseZipFile, destDirectory, outputFileName, numOfFileExtracted = 0):
+def extract3dRecursively(fileList, baseZipFile, destDirectory, outputFileName, numOfFileExtracted=0):
     imageExtList = ['.jpg', '.png']
     fusionExtList = ['.smt', '.smb', '.sat', '.igs', '.dxf', '.stp', '.stl']
 
@@ -66,13 +66,15 @@ def execute(srcDirectory, destDirectory, filename):
     # os.remove(newFilePath)
 
 
-def main():
+def main(filepath=None):
     args = sys.argv
     usage = 'USAGE: %s [123D FILE PATH OR DIRECTORY]' % args[0]
     directory = os.path.dirname(os.path.realpath(__file__))
 
     if len(args) == 2:
         directory = os.path.dirname(args[1])
+    elif filepath:
+        directory = os.path.dirname(filepath)
     else:
         print(usage)
         print('Using current directory..')
