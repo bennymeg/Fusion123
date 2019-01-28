@@ -40,7 +40,7 @@ Please use PyLint (Default linter on VS Code) to lint your code before submittin
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/bennymeg/Fusion123/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/bennymeg/Fusion123/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -54,4 +54,4 @@ _See also the list of [contributors](https://github.com/bennymeg/Fusion123/contr
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bennymeg/Fusion123/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bennymeg/Fusion123/blob/master/LICENSE) file for details
