@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 #      https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html
 
 setuptools.setup(
-    name="123-Fusion",
-    version="0.0.1",
+    name="fusion123",
+    version="0.1.0",
     author="Benny Megidish",
     author_email="bennymegk@gmail.com",
     description="Converts 123D design CAD files into Fusion 360 CAD files",
@@ -16,7 +16,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/bennymeg/123-Fusion",
     packages=setuptools.find_packages(),
-    scripts=['bin/123fusion'],
+    scripts=['bin/fusion123'],
     # entry_points = {
     #     'console_scripts': ['123fusion=src.converter:main'],
     # },

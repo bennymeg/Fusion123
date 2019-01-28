@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+import sys
+from fusion123 import converter
+
+args = sys.argv
+filepath = args[1] if len(args) == 2 else None
+
+converter.convert(filepath)
