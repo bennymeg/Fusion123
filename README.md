@@ -31,32 +31,9 @@ NOTE: the PyPi module name is _different_ then the repository name
 python fusion123 [path/to/*.123dx]
 ```
 
-<!-- * _file path is mandatory_ -->
-
-<!-- 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-``` -->
-
 ### Coding style tests
 
 Please use PyLint (Default linter on VS Code) to lint your code before submitting a PR.
-<!-- 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
 
 ## Contributing
 
@@ -75,10 +52,3 @@ _See also the list of [contributors](https://github.com/bennymeg/123-Fusion/cont
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
-
-<!-- ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc -->
-
