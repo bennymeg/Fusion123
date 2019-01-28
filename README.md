@@ -1,6 +1,9 @@
 # 123-Fusion
 Converts 123D design CAD files into Fusion 360 CAD files
 
+[![licence](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bennymeg/AcademicEmailVerifier/blob/master/LICENSE)
+[![](https://img.shields.io/pypi/v/:packageName.svg)](https://pypi.org/pypi/fusion123/)
+
 <!-- ___
 🚧**NOTE:** this repository is still a work in progress, it has not been deployed to PyPi yet. In order to use it, please execute the converter script directly.
 ```
