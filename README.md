@@ -1,4 +1,4 @@
-# 123-Fusion
+# Fusion123
 Converts 123D design CAD files into Fusion 360 CAD files
 
 [![licence](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bennymeg/AcademicEmailVerifier/blob/master/LICENSE)
@@ -26,7 +26,7 @@ You will need to install python 3 in order to use this software
 ```
 pip install fusion123
 ```
-NOTE: the PyPi module name is _different_ then the repository name
+<!-- NOTE: the PyPi module name is _different_ then the repository name -->
 
 ### Running
 
@@ -40,18 +40,18 @@ Please use PyLint (Default linter on VS Code) to lint your code before submittin
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/bennymeg/123-Fusion/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/bennymeg/Fusion123/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bennymeg/123-Fusion/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bennymeg/Fusion123/tags). 
 
 ## Authors
 
 **Benny Megidish**
 
-_See also the list of [contributors](https://github.com/bennymeg/123-Fusion/contributors) who participated in this project._
+_See also the list of [contributors](https://github.com/bennymeg/Fusion123/contributors) who participated in this project._
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bennymeg/Fusion123/LICENSE) file for details
